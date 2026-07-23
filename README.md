@@ -7,75 +7,63 @@
 
 <img align="right" src="https://cdn.discordapp.com/attachments/1521700484770173018/1529776926691164252/lv_0_20260721170700.gif?ex=6a632b49&is=6a61d9c9&hm=3fd090d4c413b00eae9656a91e0a7ebe81a1758a26e39e46d282f71019d3c5e4" width="320"/>
 
-```csharp
-dc         $  @6cjb
-srv        $  discord.gg/clyred
-contact me $  zayybot.dev@gmail.com
-```
+discord: @6cjb
+server: discord.gg/clyred
+contact: zayybot.dev@gmail.com
 
 ---
 
-## ⚡ Clyred Server Cloner
+## clyred server cloner
 
-Fast Discord server cloner built with `aiohttp` — clone any server in seconds with perfect fidelity.
+fast discord server cloner built with aiohttp. clone any server in seconds.
 
-### 🔥 Features
+### features
 
-```csharp
-roles       $  name | color | permissions | hoist | mentionable | emoji | order
-channels    $  text | voice | announcements | forums | stages | categories
-overwrites  $  all permission overwrites synced with new role IDs
-settings    $  name | icon | description | locale | verification | AFK | system
-emojis      $  all emojis with names and roles
-rate limit  $  automatic retry with 429 respect
-speed       $  fully asynchronous with aiohttp
+roles - name, color, permissions, hoist, mentionable, emoji, order
+channels - text, voice, announcements, forums, stages, categories
+overwrites - all permission overwrites synced with new role ids
+settings - name, icon, description, locale, verification, afk, system
+emojis - all emojis with names
+rate limit - automatic retry with 429 respect
+speed - fully asynchronous
+
+### requirements
+
+python 3.8+
+aiohttp 3.8.0+
+
+### installation
+
 ```
-
-### 📦 Requirements
-
-```csharp
-python      $  3.8+
-aiohttp     $  3.8.0+
-```
-
-### 🚀 Installation
-
-```bash
 git clone https://github.com/ung4oforever/clyred-cloner.git
 cd clyred-cloner
 pip install -r requirements.txt
 ```
 
-### 🎯 Usage
+### usage
 
-```bash
+```
 python cloner.py
 ```
 
-```csharp
-token       $  your discord token
-source      $  source server id
-target      $  target server id
-```
+enter your token, source server id and target server id.
 
-### 🔑 How to get IDs
+### how to get ids
 
-```csharp
-developer mode  $  discord settings > advanced > enable
-copy id         $  right click server > copy server id
-```
+enable developer mode in discord settings > advanced
+right click server > copy server id
 
-### ⚠️ Disclaimer
+### how to get token
 
-```csharp
-warning     $  self-bots are against discord TOS
-purpose     $  educational use only
-liability   $  developer not responsible for misuse or bans
-```
+open discord in browser, press f12 > network tab
+send a message, find the messages request
+look for the authorization header
 
-### 📜 License
+### disclaimer
 
-```csharp
-license     $  MIT © zay (6cbj)
-```
+self-bots are against discord tos. for educational purposes only. developer not responsible for misuse or bans.
+
+### license
+
+mit © zay (6cbj)
 ```
