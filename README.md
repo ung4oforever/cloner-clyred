@@ -102,6 +102,17 @@ discord api
 
 ---
 
+## recommendation
+
+```csharp
+it is recommended to use a newly created server.
+
+using an empty server helps preserve the original
+channel order, role hierarchy and overall structure,
+while avoiding conflicts with existing roles,
+channels or permissions.
+```
+
 ## disclaimer
 
 this project is provided for educational purposes only.
